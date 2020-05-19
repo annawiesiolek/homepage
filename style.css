@@ -1,16 +1,50 @@
 body {
   background: #f2e9e4;
 }
+.about-me {
+  background: #9a8c98;
+}
 .about-me__description {
-    background: #9a8c98; 
-
+  background: #9a8c98;
 }
-.header-title {
-  color: #22223b;
-}
-
 .about-me__heading {
   color: #4a4e69;
+}
+.article{
+    background: #9a8c98; 
+}
+.footer {
+  color: #70686f;
+}
+.header {
+    max-width: 1000px;
+    margin: 50px auto;  
+}
+.header-title {
+  color: #22223bd2;
+  border: 10px #4a4e69 solid;
+  margin: 5px 200px;
+  text-align: center; 
+}
+.homepage {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.photos {
+    background: #9a8c98; 
+}
+.navigation {
+    background: #4A4E69;
+    padding: 6px;
+ 
+
+}
+.navigation__link{
+    color: #c9ada7;
+    margin-right: 30px;
+}
+.weekly-notes {
+  background: #9a8c98;
 }
 .weekly-notes__heading {
   color: #4a4e69;
@@ -20,12 +54,4 @@ body {
 }
 .weekly-notes__article--title {
   color: #22223b;
-}
-
-.footer {
-  color: #70686f;
-}
-
-.homepage {
-  max-width: 1000px;
 }
