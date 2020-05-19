@@ -1,29 +1,31 @@
+body {
+  background: #f2e9e4;
+}
+.about-me__description {
+    background: #9a8c98; 
+
+}
 .header-title {
   color: #22223b;
 }
 
-.content-header {
+.about-me__heading {
   color: #4a4e69;
 }
-.lesson {
+.weekly-notes__heading {
+  color: #4a4e69;
+}
+.weekly-notes__article--description {
   color: #22223b;
 }
-p {
+.weekly-notes__article--title {
   color: #22223b;
-}
-body {
-  background: #f2e9e4;
 }
 
-section {
-  background: #c9ada7;
-}
-.header-link {
-  color: #70686f;
-}
 .footer {
   color: #70686f;
 }
-.link {
-  color: #5f495c;
+
+.homepage {
+  max-width: 1000px;
 }

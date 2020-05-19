@@ -8,25 +8,24 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a class="header-link" href="index.html">Strona główna</a>
-        <a class="header-link" href="nauka-html.html"
-          >Moje marzenie - Norwegia</a
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Moje marzenie - Norwegia</a
         >
       </nav>
     </header>
-    <main>
-      <header id="top">
+    <main class="homepage">
+      <header class="header" id="top">
         <h1 class="header-title">
           Moja wielka przygoda z programowaniem<br />
           czyli<br />
           Co ten frontend<br />
         </h1>
       </header>
-      <section>
-        <h2 class="content-header">Kilka słów o mnie?</h2>
-        <p>
+      <section class="about-me">
+        <h2 class="about-me__heading">Kilka słów o mnie?</h2>
+        <p class="about-me__description">
           Cześć! Mam 29 lat, mieszkam w Warszawie z mężem i kotem. Na co dzień
           pracuje w księgowości. <br />Lubię góry, piękne widoki i odkąd
           półtorej roku mieszkałam w Norwegii, zakochałam się w tym kraju i mimo
@@ -34,23 +33,23 @@
           <strong>wrócić do krainy fiordów.</strong>
         </p>
       </section>
-      <section>
-        <h2 class="content-header">Czemu frontend?</h2>
-        <p>
+      <section class="about-me">
+        <h2 class="about-me__heading">Czemu frontend?</h2>
+        <p class="about-me__description">
           Mimo że liczę sobie <em>już </em> 29 wiosen, cały czas się zastanawiam
           co bym chciała robić w życiu... Padło na frontend bo myśli o tym już
           od dawna kłębiły się w głowie ale nigdy nie było czasu, ani pieniędzy
           na kurs czy szkolenie. Teraz w końcu odważyłam się spróbować czy ten
           kierunek jest dla mnie. W końcu gdy nie spróbuje to się nie przekonam
           i całe życie mogę sobie tylko gdybać.
-          <a class="link" href="#notatki">Przejdź do notatek</a>
+          <a class="about-me__link" href="#notatki">Przejdź do notatek</a>
         </p>
       </section>
-      <section id="notatki">
-        <h2 class="content-header">Dziennik</h2>
-        <article>
-          <h3 class="lesson">Tydzień I</h3>
-          <p>
+      <section class="weekly-notes" id="notatki">
+        <h2 class="weekly-notes__heading">Dziennik</h2>
+        <article class="weekly-notes__article">
+          <h3 class="weekly-notes__article--title">Tydzień I</h3>
+          <p class="weekly-notes__article--description">
             Ut ut mollis metus. Aenean dictum lectus in imperdiet porta. Nulla
             ut mauris porttitor, ultricies lorem at, ornare elit. Ut ex dui,
             tempus sed gravida quis, blandit sit amet felis. Aenean tristique
@@ -66,9 +65,9 @@
             faucibus blandit est, vel venenatis libero accumsan nec.
           </p>
         </article>
-        <article>
-          <h3 class="lesson">Tydzień II</h3>
-          <p>
+        <article class="weekly-notes__article">
+          <h3 class="weekly-notes__article--title">Tydzień II</h3>
+          <p class="weekly-notes__article--description">
             Morbi sit amet ligula eget risus egestas pretium nec quis lorem.
             Cras feugiat enim suscipit ultricies consequat. Nullam augue velit,
             auctor vitae aliquet eu, hendrerit eu dui. Pellentesque ac orci
@@ -85,8 +84,8 @@
           </p>
         </article>
         <article>
-          <h3 class="lesson">Tydzień III</h3>
-          <p>
+          <h3 class="weekly-notes__article--title">Tydzień III</h3>
+          <p class="weekly-notes__article--description">
             Donec libero turpis, dignissim eu rutrum viverra, hendrerit eget
             leo. Suspendisse ex augue, commodo at sollicitudin quis, accumsan at
             ligula. Cras aliquam ligula non ex facilisis efficitur. Suspendisse
@@ -103,7 +102,7 @@
     </main>
     <footer class="footer">
       Praca domowa ze szkolenia WTF: Co Ten Frontend?
-      <a class="link" href="#top">Wróć na górę strony</a>
+      <a class="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
     <script src="main.js"></script>
   </body>
