@@ -28,6 +28,11 @@ body {
 }
 .footer {
   color: #70686f;
+  max-width: 1000px;
+  margin: auto;
+}
+.footer__link {
+  color: #4a4e69;
 }
 .header {
   max-width: 1000px;
@@ -39,7 +44,8 @@ body {
   min-width: 240px;
   min-height: 200px;
   margin: 8px 350px;
-  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 10px;
   border-radius: 30%;
   text-align: center;
 }
