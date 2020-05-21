@@ -3,54 +3,92 @@ body {
 }
 .about-me {
   background: #9a8c98;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .about-me__description {
   background: #9a8c98;
+  color: #22223b;
+  padding-bottom: 20px;
 }
 .about-me__heading {
   color: #4a4e69;
 }
-.article{
-    background: #9a8c98; 
+.article {
+  background: #9a8c98;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.article__title {
+  color: #4a4e69;
+}
+.article__description {
+  color: #22223b;
+  padding-bottom: 20px;
 }
 .footer {
   color: #70686f;
 }
 .header {
-    max-width: 1000px;
-    margin: 50px auto;  
+  max-width: 1000px;
+  margin: 5px auto;
 }
 .header-title {
   color: #22223bd2;
   border: 10px #4a4e69 solid;
-  margin: 5px 200px;
-  text-align: center; 
+  min-width: 240px;
+  min-height: 200px;
+  margin: 8px 350px;
+  padding: 30px;
+  border-radius: 30%;
+  text-align: center;
+}
+.heading__title {
+  color: #22223bd2;
+  border: 10px #4a4e69 solid;
+  min-width: 260px;
+  min-height: 40px;
+  margin: 5px 350px;
+  padding: 5px;
+  border-radius: 30%;
+  text-align: center;
 }
 .homepage {
   max-width: 1000px;
-  margin: 50px auto;
+  margin: auto;
 }
 .photos {
-    background: #9a8c98; 
+  background: #9a8c98;
+  text-align: center;
+}
+.photos__norway {
+  border: 5px #4a4e69 solid;
+  display: inline-block;
+  max-width: 400px;
+  max-height: 267px;
+}
+.photos__title {
+  color: #4a4e69;
 }
 .navigation {
-    background: #4A4E69;
-    padding: 6px;
- 
-
+  background: #4a4e69;
+  padding: 6px;
 }
-.navigation__link{
-    color: #c9ada7;
-    margin-right: 30px;
+.navigation__link {
+  color: #c9ada7;
+  margin-right: 30px;
 }
 .weekly-notes {
   background: #9a8c98;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .weekly-notes__heading {
   color: #4a4e69;
 }
 .weekly-notes__article--description {
   color: #22223b;
+  padding-bottom: 10px;
 }
 .weekly-notes__article--title {
   color: #22223b;
