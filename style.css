@@ -19,12 +19,16 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-.article__title {
-  color: #4a4e69;
-}
+
 .article__description {
   color: #22223b;
   padding-bottom: 20px;
+}
+.article__title {
+  color: #22223b;
+}
+.article__title--norway {
+  color: #4a4e69;
 }
 .footer {
   color: #70686f;
@@ -38,7 +42,7 @@ body {
   max-width: 1000px;
   margin: 5px auto;
 }
-.header-title {
+.header__title {
   color: #22223bd2;
   border: 10px #4a4e69 solid;
   min-width: 240px;
@@ -91,11 +95,4 @@ body {
 }
 .weekly-notes__heading {
   color: #4a4e69;
-}
-.weekly-notes__article--description {
-  color: #22223b;
-  padding-bottom: 10px;
-}
-.weekly-notes__article--title {
-  color: #22223b;
 }
